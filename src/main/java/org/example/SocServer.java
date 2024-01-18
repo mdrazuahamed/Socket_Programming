@@ -13,7 +13,7 @@ public class SocServer {
         ServerSocket ss = new ServerSocket(9999);
 
         System.out.println("Server is waiting for client request");
-        Socket s = ss.accept();
+        Socket s = ss.accept(); /// if server get any client request then it will create socket object
 
         System.out.println("Client connected");
 

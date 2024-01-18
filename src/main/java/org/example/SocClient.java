@@ -15,6 +15,6 @@ public class SocClient {
         // s.getOutputStream() where to send the data, it's output port of the data
         PrintWriter out = new PrintWriter(os);
         os.write(str);
-        os.flush();
+        os.flush(); // queue is full so flushing
     }
 }
